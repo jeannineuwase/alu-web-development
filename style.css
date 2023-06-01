@@ -1,0 +1,294 @@
+body{
+    background-image:url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Sans Pro';
+    background-position: right;
+    height: 80vh;
+    width: 100%;
+
+}
+nav{
+  padding-top:40px;
+}
+
+.nav a{
+text-decoration: none;
+color: white;
+margin: 10px;
+}
+.nav-bar{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    margin-left: 65%;
+    margin-top:-20px;
+    
+}
+.nav a:hover{
+    color: #C271FF;
+}
+.getschooled{
+font-family: Source Sans Pro;
+font-size: 70px;
+font-weight: 700;
+line-height: 151px;
+letter-spacing: 0px;
+text-align: center;
+color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    margin:10px;
+    position: relative;
+    top: -100px;
+    color: white;
+
+  }
+  button{
+height: 44px;
+width: 162px;
+border-radius: 22px;
+background: #C271FF;
+border-color: transparent;
+position: relative;
+top: -100px;
+  }
+  .profile-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    position: relative;
+    top: -70px;
+    color: white;
+
+  }
+  
+  .profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card h3 {
+    margin: 0;
+  }
+  
+  .profile-card p {
+    margin: 0;
+  }
+  .learn{
+text-justify: center;
+text-align: center;
+font-size: 32px;
+position: relative;
+top: -70px;
+color: white;
+  }
+  .profile-containerr {
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+ 
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job {
+    font-size: 18px;
+    color: #666666;
+}
+.testimonies{
+background: #C271FF;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cards-profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cards-profile-image-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cards-profile-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    color: #C271FF;
+    margin-right: 5px;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    color: #C271FF;
+    font-size: 14px;
+}
+
+.duration-icon {
+    margin-right: 5px;
+}
+.cards_line{
+    display: flex;
+}
+.membership .profile-card{
+    top: 30px;
+    
+}
+.membership{
+    background-color: #071629;;
+    height:60vh ;
+}
+.card4 {
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #071629;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .right {
+    margin-left: auto;
+  }
+  
+  .left {
+    margin-right: auto;
+  }
+  
+  .topic {
+    color: rgba(7, 22, 41, 0.501584);;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    height: 20vh;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logo-image {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icon {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  .p1{
+    position: relative;
+    color: #7a7575;
+    top:50px;
+    text-align: center;
+    justify-content: center;
+  }
+  
