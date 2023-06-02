@@ -3,30 +3,41 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Source Sans Pro';
-    background-position: right;
+    /* background-position: right; */
     height: 80vh;
     width: 100%;
 
 }
-nav{
-  padding-top:40px;
+nav {
+  padding-top: 20px;
 }
 
-.nav a{
-text-decoration: none;
-color: white;
-margin: 10px;
+.nav-list {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  list-style-type: none;
 }
-.nav-bar{
-    position:relative;
-    justify-content: center;
-    text-align: center;
-    margin-left: 65%;
-    margin-top:-20px;
-    
+
+.nav-list li {
+  margin: 5px;
 }
-.nav a:hover{
-    color: #C271FF;
+
+.nav-list img {
+  height: 35px; 
+  margin-right: 110vh;
+
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  /* margin-left: 20px; */
+  margin-right: 60px;
+}
+
+.nav-list a:hover {
+  color: #C271FF;
 }
 .getschooled{
 font-family: Source Sans Pro;
@@ -68,16 +79,13 @@ top: -100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     position: relative;
     top: -70px;
     color: white;
 
   }
-  
   .profile-card img {
     border-radius: 50%;
     width: 100px;
@@ -106,13 +114,14 @@ color: white;
     padding: 20px;
     display: flex;
     align-items: center;
+    background-position: right top;
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 24px;
  
 }
 
@@ -134,10 +143,13 @@ color: white;
 }
 .testimonies{
 background: #C271FF;
-display: flex;
+height: 50vh;
+/* display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
+    margin: 0;
+  padding: 0;
+  background-position: right top; */
 }
 
 .card {
@@ -258,6 +270,25 @@ display: flex;
     font-size: 24px;
     font-weight: bold;
   }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+  
+  }
+
+  .box>* {
+    flex: 1 1 200px;
+  }
+  .main-text{
+    align-items: center;
+    margin-left: 200px;
+  }
+  .box .paragraph{
+    color:#071629
+  }
+
   .footer {
     display: flex;
     justify-content: space-between;
@@ -272,7 +303,7 @@ display: flex;
   }
   
   .logo-image {
-    width: 100px; /* Adjust the width as needed */
+    width: 200px; /* Adjust the width as needed */
   }
   
   .social-icons {
@@ -287,8 +318,6 @@ display: flex;
   .p1{
     position: relative;
     color: #7a7575;
-    top:50px;
-    text-align: center;
-    justify-content: center;
+    top:60px;
   }
   
